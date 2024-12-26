@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,green,blue,yellow,brown,pink,#ff11,green);
+    text-transform: capitalize;
+}
+.main_div{
+    width: 80%;
+    height: 500px;
+    /* background-color: navy; */
+    margin:10px auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+.btn_1{
+    background-color: #5CB338;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn_1:hover{
+    background-color: red;
+}
+.btn_2{
+    /* background-color:navy; */
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px; 
+    border: 1px solid black;
+}
+.btn_2:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.btn_3{
+    background-color: #5CB338;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding:10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:15px 0px 15px 0px;
+}
+.btn_3:hover{
+    background-color: red;
+}
+.btn_4{
+    background-color: #223d16;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 0px 15px 0px 15px;
+}
+.btn_4:hover{
+    background-color: red;
+}
+.btn_5{
+    background-color: #7cff0285;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.btn_5:hover{
+  background-color: blue;
+}
+.btn_6{
+    background-color: #240541;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btn_6:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+    /* transform: skew(15deg,10deg); */
+    /* transform: skewx(15deg); */
+    transform: scale(1.5);
+}
+.btn_7{
+    background-color: #ff0606;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn_7:hover{
+    transition: 1s;
+    background-color: navy;
+    transform: rotate(360deg);
+}
+.btn_8{
+    background-color: #5CB338;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn_8:hover{
+    transition: 1s;
+    background-color: navy;
+    transform: scale(.1);
+}
+.btn_9{
+    background-color: #5CB338;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn_9:hover{
+    transition: 1s;
+    background-color: rgb(17, 16, 114);
+    transform:scale(1.10);
+}
+.btn_10{
+    background-color: #5CB338;
+    width: 100px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
